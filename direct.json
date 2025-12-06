@@ -2,7 +2,15 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": "0x0.st"
+     "domain_suffix": [
+        ".cn"
+      ],
+      "domain_keyword": [
+        "opencd"
+      ],
+      "source_ip_cidr": [
+        "192.168.1.20"
+      ]
     }
   ]
 }
